@@ -46,7 +46,7 @@ This step is the same as above, you can use the same bin files.
 
 .. code-block:: bash
 
-  strling extract -f $reference_fasta /path/to/$sample2.cram $sample1.bin
+  strling extract -f $reference_fasta /path/to/$sample1.cram $sample1.bin
   strling extract -f $reference_fasta /path/to/$sample2.cram $sample2.bin
 
 Output file(s): $sample1.bin, $sample2.bin, ... - binary files describing STR-containing reads
